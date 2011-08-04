@@ -7,12 +7,6 @@
 
   exports.init = function(options) {
     options = options || { };
-    if(fs === undefined || fs === null) {
-      fs = require('fs');
-    }
-    if(haml === undefined || haml === null) {
-      haml = require('haml');
-    }
     data = options.data || { };
     file_path = options.file || file_path;
     file_data = fs.readFileSync( file_path, 'utf8' );
