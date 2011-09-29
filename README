@@ -1,4 +1,6 @@
 // Bricks Example:
+var hamlPlugin = require('./hamlhandler');
+
 var values = {
   title: "Hello HAML"
 };
