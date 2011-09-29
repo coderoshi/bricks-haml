@@ -5,6 +5,7 @@
   var data;
   var file_data;
 
+  // accepts 'file_path' string and 'data' object
   exports.init = function(options) {
     options = options || { };
     data = options.data || { };

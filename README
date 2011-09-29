@@ -1,5 +1,4 @@
 // Bricks Example:
-
 var values = {
   title: "Hello HAML"
 };
