@@ -1,0 +1,14 @@
+// Bricks Example:
+
+var values = {
+  title: "Hello HAML"
+};
+
+appServer.addRoute("/index$", hamlPlugin, { file: 'index.haml', data: values });
+
+// HAML file:
+!!!
+%html
+  %title=title
+  %body
+    %h1.title=title
